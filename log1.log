@@ -1,0 +1,16 @@
+Enter your prompt: What is the Capital of Delhi ?
+Found template: /Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
+✓ Thinking mode set to: ON
+We are asked: "What is the Capital of Delhi ?" This is a straightforward factual question. The capital of Delhi is New Delhi. However, note that Delhi is a union territory, and its capital is New Delhi. Sometimes people might say Delhi, but the official capital is New Delhi. So the answer should be New Delhi.
+
+Let's provide a clear and concise answer.</think>The capital of Delhi is **New Delhi**.
+==========
+Prompt: 23 tokens, 135.301 tokens-per-sec
+Generation: 89 tokens, 26.867 tokens-per-sec
+Peak memory: 3.456 GB
+
+
+[Stderr]
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 1854.18it/s]
+[transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
