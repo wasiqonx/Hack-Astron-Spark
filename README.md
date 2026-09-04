@@ -7,7 +7,7 @@
   - 8 GB unified memory
   - Revision- `448e61eb392c00f2c403185c5b56d5e0665bfaab`
   - `spark-mlx-generate`
-  - Python: `[run python3 --version and insert the result]`
+  - Python: `[3.14.7]`
   - MLX / Spark-MLX-LLM: `[0.1.0]`
 
 | Category | Example |
