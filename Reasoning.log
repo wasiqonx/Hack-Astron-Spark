@@ -1,5 +1,8 @@
-[7malias spark-think='/Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/spark.py --think'[27m[K
-[7malias spark-nothink='/Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/spark.py --no-think'[27m[K
+[7malias spark-think='/Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/spark.py --think'[27m[K
+
+[7malias spark-nothink='/Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/spark.py --no-think'[27m[K
+
+
 Enter your prompt: What comes foi  irst hair or phone ?
 Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
 ✓ Thinking mode set to: ON
@@ -135,7 +138,8 @@ Maybe it's a trick: "What comes first hair or phone?" Answer: "Hair" because it'
 
 Wait, could it be a question about the order of something like "hair" and "phone" in a list of things that are "first" in some context? For example, in the context of a phone, "hair" might be a typo for "hair" as in "hair" is a part of the phone? No.
 
-Another idea: The question might be a play on the phrase "hair and phone" as in "hair and phone" sounds like "hair and phone" but maybe it's a pun. "What comes first hair or phone?" Could be "hair" because it's a body part, and body parts come before phones? Or "phone" because it's a device that comes after? I'm not sure.
+Another idea: The question might be a play on the phrase "hair and phone" as in "hair and phone" sounds like "hair and phone" but maybe it's a pun. "What comes first hair or phone?" Could be "hair" because it's a body part, and body parts come before phones? Or "phone" because it's a device that comes after? I'm not sure.
+
 
 Let's search online memory: I recall a riddle: "What comes first, hair or phone?" and the answer is "Hair" because it's a body part, and body parts come before phones? Or maybe it's "phone" because it's a device that comes after? I think I've seen something like this. Actually, I remember a riddle: "What comes first, hair or phone?" Answer: "Hair" because it's a living thing, and living things come first. Or maybe it's "phone" because it's a non-living thing? That doesn't make sense.
 
@@ -325,14 +329,30 @@ Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
 Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 1716.16it/s]
 [transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
 
-[1m[7m%[27m[1m[0m                                                                                               [0m[27m[24m[J(.venv) wasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hddeactivate[?2004l
-[1m[7m%[27m[1m[0m                                                                                               [0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hssession exit[?2004l
+[1m[7m%[27m[1m[0m                                                                                              
+ 
+
+[0m[27m[24m[J(.venv) wasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hddeactivate[?2004l
+
+[1m[7m%[27m[1m[0m                                                                                              
+ 
+
+[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hssession exit[?2004l
+
 zsh: command not found: session
-[1m[7m%[27m[1m[0m                                                                                               [0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004heexit[?2004l
+[1m[7m%[27m[1m[0m                                                                                              
+ 
+
+[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004heexit[?2004l
+
 
 Script done on Fri Sep  4 01:18:07 2026
 Script started on Fri Sep  4 10:01:39 2026
-[1m[7m%[27m[1m[0m                                                                                                                                                     [0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hsspark[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                    
+ 
+
+[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hsspark[?2004l
+
 Enter your prompt: 4 apples re  are eaten by childe ren   and their are only 10 in the cb  basket  ? How many apples are eaten ?
 Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
 ✓ Thinking mode set to: ON
@@ -366,7 +386,11 @@ Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
 Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 2388.35it/s]
 [transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
 
-[1m[7m%[27m[1m[0m                                                                                                                                                     [0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hspark-think      [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                    
+ 
+
+[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hspark-think      [?2004l
+
 Enter your prompt: If diamter of circle is 2 cm  ..  what is the are   ci  a   c                                           A cow mows 5 times a dat   y  .  each      Eaxch   ch Mow mean its daty    y time          breakfast time  , and then lunch       luncg   h       a mow at lunch  , then a mow at supper  , the  n at dinner. W   . The    Whic      Which mow isn't related to any event on Timeline ?> 
 Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
 ✓ Thinking mode set to: ON
@@ -391,7 +415,8 @@ Wait, maybe the problem is from a test where there is a timeline given earlier. 
 Maybe the problem is a logic puzzle where we have to deduce which mow is not part of the timeline. But without the timeline, it's impossible.
 
 Let's read carefully: "A cow mows 5 times a day. Each mow mean its breakfast time, and then a mow at lunch, then a mow at supper, then at dinner. Which mow isn't related to any event on Timeline?"
-
+
+
 Perhaps "Timeline" refers to a specific timeline that is not provided. Could it be that the cow mows 5 times, but the events are only breakfast, lunch, supper, dinner? That's 4 events. So one mow is not related to any event? But all mows are related to events: breakfast, lunch, supper, dinner. The 5th mow is not explicitly assigned an event. But maybe the 5th mow is something like "morning" or "evening"? But the problem says "each mow mean its breakfast time, and then a mow at lunch, then a mow at supper, then at dinner." That implies the order: breakfast, lunch, supper, dinner. That's 4. So the 5th mow must be something else. But the question asks "Which mow isn't related to any event on Timeline?" Possibly the timeline includes only those four events? Then the 5th mow is not related to any event? But the cow mows 5 times a day, so there are 5 mows. If the timeline only has 4 events, then one mow is not part of the timeline. But which one? The problem doesn't specify the 5th mow.
 
 Maybe there is a misinterpretation: "Each mow mean its breakfast time, and then a mow at lunch, then a mow at supper, then at dinner." That could be interpreted as: The first mow is breakfast, second is lunch, third is supper, fourth is dinner. That's 4 mows. But it says 5 times a day. So there is an extra mow. Perhaps the extra mow is at some other time? But the question asks "Which mow isn't related to any event on Timeline?" Possibly the timeline is given in a previous part of the problem that we don't see.
@@ -560,7 +585,11 @@ Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
 Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 1042.58it/s]
 [transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
 
-[1m[7m%[27m[1m[0m                                                                                                                                                     [0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hsspark[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                    
+ 
+
+[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hsspark[?2004l
+
 Enter your prompt: Ac  cat eas ts 8 fishes in a daty  y  .  a ANd    nd only            And in stock            But the man only have               owner of cat has only 20 fishes  . How many days can cat eat sufficentlt    y     cently enough for     ? to satisfy it          meet its quota of eating fishes ?
 Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
 ✓ Thinking mode set to: ON
@@ -607,6 +636,10 @@ Peak memory: 3.495 GB
 
 [Stderr] [transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
 
-[1m[7m%[27m[1m[0m                                                                                                                                                     [0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004heexit[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                    
+ 
+
+[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004heexit[?2004l
+
 
 Script done on Fri Sep  4 10:52:33 2026
