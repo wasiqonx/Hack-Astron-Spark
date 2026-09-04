@@ -279,3 +279,203 @@ However, since the cat eats only 8 fishes per day, it can only eat for a full 2 
 
 Therefore, the cat can eat **2 days** sufficently.
 ```
+
+---
+
+# Thinking Mode Off - Sessions Comparison
+
+> **Note:** The following sessions were run with **Thinking Mode: Off** (using `spark-nothink` command). These are separate from the "Thinking Model Spark" examples above which primarily use Thinking Mode: On.
+
+## Sessions Comparison
+
+| Category | Session 1 | Session 2 | Session 3 | Session 4 |
+|---|---|---|---|---|
+| Model | XHToken/Spark-X2.5-1.7B | XHToken/Spark-X2.5-1.7B | XHToken/Spark-X2.5-1.7B | XHToken/Spark-X2.5-1.7B |
+| Runtime | Spark-MLX-LLM | Spark-MLX-LLM | Spark-MLX-LLM | Spark-MLX-LLM |
+| Runtime version | Spark-MLX-LLM [0.1.0] | Spark-MLX-LLM [0.1.0] | Spark-MLX-LLM [0.1.0] | Spark-MLX-LLM [0.1.0] |
+| Hardware | Apple M3-Pro 8GB Unified Memory | Apple M3-Pro 8GB Unified Memory | Apple M3-Pro 8GB Unified Memory | Apple M3-Pro 8GB Unified Memory |
+| GPU driver | MLX GPU | MLX GPU | MLX GPU | MLX GPU |
+| Precision | BF16 | BF16 | BF16 | BF16 |
+| Thinking Mode | Off | Off | Off | Off |
+| Temperature | 0 | 0 | 0 | 0 |
+| max_tokens | 10000 | 10000 | 10000 | 10000 |
+| Prompt | Is 55+88=143 ? | Does it make sense to take the car ? | What is the capital of Delhi ? | A cat eats 9 fishes in a day. But the owner has only 21 fishes. At least how many days and hours could a cat survive? |
+| Prompt tokens | 28 | 34 | 28 | 50 |
+| Tokens per second [Input] | 160.152 tokens-per-sec | 183.896 tokens-per-sec | 181.467 tokens-per-sec | 277.236 tokens-per-sec |
+| Generation tokens | 200 | 10000 | 10000 | 10000 |
+| Tokens per second [Output] | 26.531 tokens-per-sec | 24.832 tokens-per-sec | 24.805 tokens-per-sec | 25.013 tokens-per-sec |
+| Peak Memory | 3.464 GB | 3.649 GB | 3.649 GB | 3.648 GB |
+
+## Session 1: Simple Addition
+
+**Prompt:**
+```
+Is 55+88=143 ?
+```
+
+**Output:**
+```
+We are asked: "Is 55+88=143 ?" This is a simple arithmetic question. We need to check if 55 + 88 equals 143.
+
+Let's compute: 55 + 88 = 143. Indeed, 55 + 88 = 143. So the answer is yes.
+
+But we need to respond appropriately. The user asks a yes/no question. We should answer "Yes" or "Yes, 55+88=143." We can also show the calculation.
+
+Since it's a straightforward question, we can just confirm.
+
+I'll respond: Yes, 55 + 88 = 143.</think>Yes, 55 + 88 = 143. 
+
+The calculation is correct: 55 + 88 = 143.
+```
+
+## Session 2: Car Wash Problem
+
+**Prompt:**
+```
+Does it make sense to take the car ?
+```
+
+**Output:**
+```
+We are asked: "Does it make sense to take the car?" This is a vague question. We need more context. The user might be asking about whether it makes sense to take the car for a trip, or to a car wash, or something else. Without context, we can only give a general answer.
+
+We should ask for clarification or provide a general response.
+
+Possible answer: "It depends on the context. Could you provide more details about what you're referring to?"
+
+But the instruction says "Answer directly and concisely." So we can say: "It depends on the situation. Please provide more context."
+
+However, we can also give a general answer: "Taking the car makes sense if you need to travel a long distance or carry heavy items. For short distances, walking or biking might be more practical."
+
+But the user might be referring to a specific situation. Since we don't have context, we should ask for clarification.
+
+I'll respond: "It depends on the context. Could you provide more details?</think>It depends on the context. Could you provide more details?
+
+For example, are you asking about taking the car to a car wash, on a trip, or for a short journey?
+```
+
+## Session 3: Capital of Delhi
+
+**Prompt:**
+```
+What is the capital of Delhi ?
+```
+
+**Output:**
+```
+We are asked: "What is the Capital of Delhi ?" This is a straightforward factual question. The capital of Delhi is New Delhi. However, note that Delhi is a union territory, and its capital is New Delhi. Sometimes people might say Delhi, but the official capital is New Delhi. So the answer should be New Delhi.
+
+Let's provide a clear and concise answer.</think>The capital of Delhi is **New Delhi**.
+```
+
+## Session 4: Cat and Fishes Problem
+
+**Prompt:**
+```
+A cat eats 9 fishes in a day. But the owner has only 21 fishes. At least how many days and hours could a cat survive?
+```
+
+**Output:**
+```
+We are given: "A cat eats 9 fishes in a day. But the owner has only 21 fishes. At least how many days and hours could a cat survive?"
+
+Interpretation: The cat eats 9 fish per day. The owner has 21 fish total. We need to find the minimum number of days and hours the cat can survive. The cat eats 9 fish per day, so it will be exhausted after 21 fish are eaten. But we need to consider if the cat eats exactly 9 fish per day, and the owner has exactly 21 fish. The cat will survive for as many days as possible until it runs out of fish. Since it eats 9 fish per day, after 2 days it will have eaten 18 fish, leaving 3 fish. After 3 days, it would eat 27 fish, but only 21 are available, so it cannot survive 3 full days. So the cat can survive for 2 full days, and then on the third day, it will eat 9 fish, but only 3 are left, so it will not eat all 9? The question says "At least how many days and hours could a cat survive?" It might imply that the cat eats exactly 9 fish per day, and we want the minimum number of days and hours it can survive given the total fish. But if the cat eats 9 fish per day, and there are 21 fish, then after 2 days, 18 fish eaten, 3 left. On the third day, the cat will eat 9 fish, but only 3 are available, so it will eat 3 fish and then die? Or does it eat only what it can? The phrasing "eats 9 fishes in a day" suggests it consumes 9 fish per day. If there are only 3 fish left, it cannot eat 9. So it would only eat 3 fish, and then die. So the cat survives for 2 full days, and then on the third day it dies after eating 3 fish? But the question asks "At least how many days and hours could a cat survive?" That might mean the maximum number of days it can survive, but with the constraint that it eats 9 fish per day. If it eats 9 fish per day, then after 2 days it has 3 fish left. On the third day, it would need to eat 9 fish, but only 3 are available, so it cannot survive the third day. So the cat survives for 2 days and then dies. But the question says "At least how many days and hours could a cat survive?" That phrasing is a bit ambiguous. It might be asking: Given that the cat eats 9 fish per day, and the owner has 21 fish, how many days can the cat survive? The answer would be 2 days (with 3 fish left over). But the question says "At least how many days and hours could a cat survive?" That might be asking for the minimum number of days it can survive, which would be 0 days if it doesn't eat. But that doesn't make sense. Let's re-read: "At least how many days and hours could a cat survive?" The phrase "at least" might be a mistranslation or misphrasing. It might mean "at most" or "how many days". Let's assume it's asking for the number of days the cat can survive given that it eats 9 fish per day and there are 21 fish. The cat can survive for 2 full days (eating 18 fish), and then on the third day, it can eat 3 fish but not the full 9. So it survives for 2 days and then dies on the third day. But the question asks for "days and hours". If we assume the cat eats 9 fish per day, that's 9/24 = 0.375 fish per hour. If there are 3 fish left, the cat can eat 3/0.375 = 8 hours worth of fish. So the cat survives for 2 days and 8 hours. But the question says "At least how many days and hours could a cat survive?" That might be asking for the minimum number of days and hours, which would be 0 days and 0 hours. But that doesn't make sense. Let's assume the question is asking for the maximum number of days and hours the cat can survive. The cat eats 9 fish per day. With 21 fish, it can survive for 2 full days (18 fish), and then have 3 fish left. If it eats 9 fish per day, that's 9/24 = 0.375 fish per hour. With 3 fish left, it can survive for 3/0.375 = 8 hours. So the cat can survive for 2 days and 8 hours. But the question says "At least how many days and hours could a cat survive?" That phrasing is confusing. Let's just answer: The cat can survive for 2 days and 8 hours.
+
+But let's double-check: 9 fish per day = 9/24 fish per hour = 0.375 fish per hour. 21 fish / 0.375 fish per hour = 56 hours = 2 days and 8 hours. Yes.
+
+So the answer is 2 days and 8 hours.
+
+But the question says "At least how many days and hours could a cat survive?" The phrase "at least" might be a mistake. It should be "at most" or just "how many days". Let's answer: 2 days and 8 hours.
+
+I'll respond: The cat can survive for **2 days and 8 hours**.
+
+Calculation: The cat eats 9 fish per day = 0.375 fish per hour. With 21 fish, the cat can survive for 21 / 0.375 = 56 hours = 2 days and 8 hours.
+```
+
+---
+
+# Multiple-Answer - Sessions Comparison
+
+> **Note:** The following sessions were run using the **Spark-X2.5 Interactive File Analyzer** which scans files in a directory and answers questions about them. This is a multiple-file coding context where the model analyzes and answers questions about provided files. For full details, see [Multiple-Answer/comparison.md](Multiple-Answer/comparison.md).
+
+## Sessions Comparison
+
+| Category | Session 1 | Session 2 |
+|---|---|---|
+| Model | XHToken/Spark-X2.5-1.7B | XHToken/Spark-X2.5-1.7B |
+| Runtime | Spark-MLX-LLM | Spark-MLX-LLM |
+| Runtime version | Spark-MLX-LLM [0.1.0] | Spark-MLX-LLM [0.1.0] |
+| Hardware | Apple M3-Pro 8GB Unified Memory | Apple M3-Pro 8GB Unified Memory |
+| GPU driver | MLX GPU | MLX GPU |
+| Precision | BF16 | BF16 |
+| Thinking Mode | Off | Off |
+| Temperature | 0.7 | 0.7 |
+| max_tokens | 2048 | 2048 |
+| Prompt | scan question.txt and answer it | Check the make.C for error |
+| Prompt tokens | 2818 | 2904 |
+| Tokens per second [Input] | 638.903 tokens-per-sec | 439.136 tokens-per-sec |
+| Generation tokens | 2048 | 1451 |
+| Tokens per second [Output] | 22.678 tokens-per-sec | 23.197 tokens-per-sec |
+| Peak Memory | 4.033 GB | 4.033 GB |
+| Runtime | 103.68s | 136.55s |
+
+## Session 1: HTML Table with 20 Country Names
+
+**Files in Directory:**
+- `scanner.py` (278 lines, 15470 bytes)
+- `question.txt` (1 lines, 61 bytes)
+
+**Prompt:**
+```
+scan question.txt and answer it
+```
+
+**question.txt Content:**
+```
+Make an HTML file that displays a table with 20 country names
+```
+
+**Output:**
+The model analyzed the question.txt file and provided a complete HTML solution. See the generated file: [Multiple-Answer/countries.html](Multiple-Answer/countries.html)
+
+## Session 2: C Code Error Analysis
+
+**Files in Directory:**
+- `scanner.py` (278 lines, 15470 bytes)
+- `make.C` (9 lines, 98 bytes)
+
+**Prompt:**
+```
+Check the make.C for error
+```
+
+**make.C Content:**
+```c
+#include <stdio.h>
+
+int main()
+{
+    int a=782;
+    int b=02;
+    int c=a+b;
+    printf("%d",c);
+}
+```
+
+**Output:**
+The model identified an **invalid integer literal** error in line 6:
+```c
+int b=02;
+```
+
+**Problem:** In C, integer literals must be written in decimal. The value `02` is not valid as a decimal integer. The compiler interprets `02` as a binary number, but binary literals must be prefixed with `0b`.
+
+**Fix:**
+```c
+int b = 2;  // For decimal value 2
+// or
+int b = 0b02;  // For binary value 2
+```
+
+
+
