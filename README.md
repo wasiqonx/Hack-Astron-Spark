@@ -463,18 +463,18 @@ int main()
 ```
 
 **Output:**
-The model identified an **invalid integer literal** error in line 6:
+The model **Halluncinated an error**  in line 6:
 ```c
 int b=02;
 ```
 
-**Problem:** In C, integer literals must be written in decimal. The value `02` is not valid as a decimal integer. The compiler interprets `02` as a binary number, but binary literals must be prefixed with `0b`.
+**Problem:** In C, It someho hallucinated a non-existing problem which didn't exist and try tp change to binary which adds error 
 
-**Fix:**
+** The Proposed Fix By Spark-1.7B Model:**
 ```c
 int b = 2;  // For decimal value 2
 // or
-int b = 0b02;  // For binary value 2
+int b = 0b02;  // For binary value 2 for no apparent reason
 ```
 
 
