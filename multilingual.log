@@ -1,0 +1,68 @@
+Enter your prompt: क्या बाघ बिल्ली है?
+Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
+✓ Thinking mode set to: ON
+उपयोगकर्ता ने "क्या बाघ बिल्ली है?" का प्रश्न पूछा है। यह एक सामान्य प्रश्न है जो प्राकृतिक तत्वों के बारे में पूछता है।
+
+मुझे स्पष्ट रूप से उत्तर देना चाहिए कि बाघ और बिल्ली एक ही प्रजाति का है। यह एक स्पष्ट और तथ्यात्मक उत्तर होना चाहिए।
+
+मुझे यह सुनिश्चित करना चाहिए कि उत्तर सटीक हो और संदर्भ के अनुसार सही हो। बाघ और बिल्ली एक ही प्रजाति का है, इसलिए मैं इसे स्पष्ट रूप से बताऊंगा।
+
+मुझे यह भी ध्यान रखना चाहिए कि उत्तर संक्षिप्त और स्पष्ट होना चाहिए, क्योंकि उपयोगकर्ता ने सीधे प्रश्न पूछा है। मैं इसके बजाय तथ्यात्मक और स्पष्ट उत्तर दे सकता हूँ।
+
+अंतिम उत्तर में, मैं बाघ और बिल्ली एक ही प्रजाति का है, इसलिए मैं इसे स्पष्ट रूप से बताऊंगा। मैं इसके अलावा, यह भी बताऊंगा कि वे एक ही प्राकृतिक प्रजाति हैं।</think>बाघ और बिल्ली एक ही प्रजाति का हैं। वे एक ही प्राकृतिक प्रजाति का नाम हैं, जिसे "बाघ-बिल्ली" या "बाघ-बिल्ली" कहा जाता है। इसलिए, बाघ बिल्ली है।
+
+
+[Stderr]
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 1501.14it/s]
+[transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
+
+wasiq@Wasiqs-MacBook-Pro ~ % spark
+Enter your prompt: Kya kitaab padhne ke liye hoti hai ?
+Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
+✓ Thinking mode set to: ON
+
+Hmm, user is asking in Hindi about what a "kitab" means. This seems like a straightforward question about the definition of the word "kitab" in the context of literature or religious texts.
+
+I should provide a clear and comprehensive answer that covers the basic meaning, its usage, and perhaps some examples to help the user understand better. The user might be learning about literature or religious texts, so the explanation should be educational.
+
+I can start by defining "kitab" as a written work, especially in religious or philosophical contexts. Then I can mention its importance in various traditions, like Islamic and Hindu texts. It might also be useful to give examples like the Quran or the Bhagavad Gita to illustrate.
+
+The answer should be concise but informative, so I'll structure it with a direct definition, key characteristics, and examples. This way, the user gets a clear understanding of what a kitab is and its significance.</think>**Kitab** (किताब) का अर्थ है **"पढ़ाई का लेख"** या **"साहित्यिक लेख"**।
+
+इसका अर्थ और महत्व इस प्रकार हैं:
+
+### 1. **सामान्य अर्थ**
+- **किसी व्यक्ति या संस्था द्वारा लिखा गया एक लेख**, जिसमें विचार, विचार, सिद्धांत, दर्शन, या सांस्कृतिक जानकारी प्रस्तुत किया गया है।
+- यह एक **सामान्य लेख** का शब्द है, जिसे पढ़ने और समझने की आवश्यकता होती है।
+
+### 2. **किसी特定 संदर्भ में**
+- **रeligious (रeligious) kitab** – **रeligious texts** जैसे कि **Quran (कुरान)**, **Bhagavad Gita (बhagavad Gita)**, **Talmud (तalmud)**, **Puran (पuran)** आदि। ये रeligious texts में सिद्धांत, दर्शन, या आध्यात्मिक सिद्धांत प्रस्तुत हैं।
+- **philosophical (पilosophical) kitab** – **philosophical texts** जैसे कि **Machiavelli's "The Prince"**, **Socrates' writings**, **Kant's works** आदि। ये विचार, सिद्धांत, और दृष्टिकोण प्रस्तुत हैं।
+- **literary (लитерary) kitab** – **literary texts** जैसे कि **Shakespeare's plays**, **Dostoevsky's novels**, **F. Scott Fitzgerald's works** आदि। ये साहित्यिक दृष्टिकोण, विचार, या दर्शन प्रस्तुत हैं।
+
+### 3. **किसी संदर्भ में महत्व**
+- **सामान्य लेख** – **सामान्य लेख** का महत्व है, जिससे व्यक्ति को ज्ञान, सिद्धांत, या दृष्टिकोण प्राप्त होता है।
+- **रeligious kitab** – **रeligious texts** में सिद्धांत, दर्शन, और आध्यात्मिक सिद्धांत प्रस्तुत होते हैं, जिससे व्यक्ति को आध्यात्मिक सिद्धांत और दृष्टिकोण प्राप्त होता है।
+- **philosophical kitab** – **philosophical texts** में विचार, सिद्धांत, और दृष्टिकोण प्रस्तुत होते हैं, जिससे व्यक्ति को सांस्कृतिक, आध्यात्मिक, या दृष्टिकोण प्राप्त होता है।
+
+### 4. **किसी संदर्भ में उपयोग**
+- **किसी व्यक्ति या संस्था द्वारा लिखा गया लेख**, जिसे पढ़ने की आवश्यकता होती है।
+- **किसी संस्था (जैसे रeligious institution) द्वारा प्रस्तुत लेख**, जिसे समझने की आवश्यकता होती है।
+
+### **उदाहरण**
+- **Quran** – **Islamic kitab**, जिसमें सिद्धांत, दर्शन, और आध्यात्मिक सिद्धांत प्रस्तुत हैं।
+- **Bhagavad Gita** – **Hindu kitab**, जिसमें आध्यात्मिक दृष्टिकोण और सिद्धांत प्रस्तुत हैं।
+- **"The Great Gatsby"** – **literary kitab**, जिसमें साहित्यिक दृष्टिकोण और विचार प्रस्तुत हैं।
+
+### **निष्कर्ष**
+**Kitab** एक **लेख** का शब्द है, जिसे **पढ़ने** और **समझने** की आवश्यकता होती है। इसका महत्व इस बात पर निर्भर करता है कि वह किस संदर्भ में लिखा गया है – **रeligious, philosophical, या literary**।
+
+क्या आप किसी特定 kitab के बारे में जानना चाहेंगे?
+==========
+
+
+[Stderr]
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 1237.37it/s]
+[transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
