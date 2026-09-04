@@ -7,15 +7,6 @@ Enter your prompt: What comes foi  irst hair or phone ?
 Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
 ✓ Thinking mode set to: ON
 
-============================================================
-Command: /Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate --model XHToken/Spark-X2.5-1.7B --prompt What comes first hair or phone ? --max-tokens 10000 --temp 0 --device gpu --dtype bfloat16
-============================================================
-
-The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
- You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
-You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
-
-Do you wish to run the custom code? [y/N] ==========
 We are asked: "What comes first hair or phone ?" This is a simple question about the order of two things. We need to determine which comes first in time or in some logical sequence. The question is ambiguous: it could be asking about the order of creation, or the order of occurrence, or perhaps in terms of physical existence. But typically, such questions are about the order of events or the order of something. Since it's a simple comparison, we might need to interpret it as: which comes first in time? Hair and phone: both are things that exist. But "comes first" could mean which one is created first, or which one is more fundamental. However, without context, it's hard. Perhaps it's a trick question or a riddle. Let's think: "What comes first hair or phone?" Could be a play on words: "hair" and "phone" - maybe "hair" comes first because it's a body part? Or maybe it's about the order of words in a sentence? Alternatively, it could be a question about the order of something like "hair" and "phone" in terms of their usage or something.
 
 Maybe it's a simple question: which comes first in time? If we consider the creation of these things, hair is part of the human body, so it's inherent. Phone is an invention. But that's not a clear answer.
