@@ -1,10 +1,10 @@
-[7malias spark-think='/Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/spark.py --think'[27m[K
+[7malias spark-think='/Users/<REDACTED>/Projects/Private/Spark/Spark-MLX-LLM/spark.py --think'[27m[K
 
-[7malias spark-nothink='/Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/spark.py --no-think'[27m[K
+[7malias spark-nothink='/Users/<REDACTED>/Projects/Private/Spark/Spark-MLX-LLM/spark.py --no-think'[27m[K
 
 
 Enter your prompt: What comes foi  irst hair or phone ?
-Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
+Found template: /Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
 ✓ Thinking mode set to: ON
 
 We are asked: "What comes first hair or phone ?" This is a simple question about the order of two things. We need to determine which comes first in time or in some logical sequence. The question is ambiguous: it could be asking about the order of creation, or the order of occurrence, or perhaps in terms of physical existence. But typically, such questions are about the order of events or the order of something. Since it's a simple comparison, we might need to interpret it as: which comes first in time? Hair and phone: both are things that exist. But "comes first" could mean which one is created first, or which one is more fundamental. However, without context, it's hard. Perhaps it's a trick question or a riddle. Let's think: "What comes first hair or phone?" Could be a play on words: "hair" and "phone" - maybe "hair" comes first because it's a body part? Or maybe it's about the order of words in a sentence? Alternatively, it could be a question about the order of something like "hair" and "phone" in terms of their usage or something.
@@ -323,18 +323,18 @@ Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 1716
 [1m[7m%[27m[1m[0m                                                                                              
  
 
-[0m[27m[24m[J(.venv) wasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hddeactivate[?2004l
+[0m[27m[24m[J(.venv) Shell Spark-MLX-LLM % [K[?2004hddeactivate[?2004l
 
 [1m[7m%[27m[1m[0m                                                                                              
  
 
-[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hssession exit[?2004l
+[0m[27m[24m[JShell Spark-MLX-LLM % [K[?2004hssession exit[?2004l
 
 zsh: command not found: session
 [1m[7m%[27m[1m[0m                                                                                              
  
 
-[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004heexit[?2004l
+[0m[27m[24m[JShell Spark-MLX-LLM % [K[?2004heexit[?2004l
 
 
 Script done on Fri Sep  4 01:18:07 2026
@@ -342,18 +342,18 @@ Script started on Fri Sep  4 10:01:39 2026
 [1m[7m%[27m[1m[0m                                                                                                                                                    
  
 
-[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hsspark[?2004l
+[0m[27m[24m[JShell Spark-MLX-LLM % [K[?2004hsspark[?2004l
 
 Enter your prompt: 4 apples re  are eaten by childe ren   and their are only 10 in the cb  basket  ? How many apples are eaten ?
-Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
+Found template: /Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
 ✓ Thinking mode set to: ON
 
 ============================================================
-Command: /Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate --model XHToken/Spark-X2.5-1.7B --prompt 4 apples are eaten by children and their are only 10 in the basket? How many apples are eaten ? --max-tokens 10000 --temp 0 --device gpu --dtype bfloat16
+Command: /Users/<REDACTED>/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate --model XHToken/Spark-X2.5-1.7B --prompt 4 apples are eaten by children and their are only 10 in the basket? How many apples are eaten ? --max-tokens 10000 --temp 0 --device gpu --dtype bfloat16
 ============================================================
 
-The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
- You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+The repository /Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
 You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
 
 Do you wish to run the custom code? [y/N] ==========
@@ -380,18 +380,18 @@ Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 2388
 [1m[7m%[27m[1m[0m                                                                                                                                                    
  
 
-[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hspark-think      [?2004l
+[0m[27m[24m[JShell Spark-MLX-LLM % [K[?2004hspark-think      [?2004l
 
 Enter your prompt: If diamter of circle is 2 cm  ..  what is the are   ci  a   c                                           A cow mows 5 times a dat   y  .  each      Eaxch   ch Mow mean its daty    y time          breakfast time  , and then lunch       luncg   h       a mow at lunch  , then a mow at supper  , the  n at dinner. W   . The    Whic      Which mow isn't related to any event on Timeline ?> 
-Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
+Found template: /Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
 ✓ Thinking mode set to: ON
 
 ============================================================
-Command: /Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate --model XHToken/Spark-X2.5-1.7B --prompt A cow mows 5 times a day.Each Mow mean its breakfast time, and then a mow at lunch, then a mow at supper, then at dinner.Which mow isn't related to any event on Timeline ? --max-tokens 10000 --temp 0 --device gpu --dtype bfloat16
+Command: /Users/<REDACTED>/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate --model XHToken/Spark-X2.5-1.7B --prompt A cow mows 5 times a day.Each Mow mean its breakfast time, and then a mow at lunch, then a mow at supper, then at dinner.Which mow isn't related to any event on Timeline ? --max-tokens 10000 --temp 0 --device gpu --dtype bfloat16
 ============================================================
 
-The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
- You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+The repository /Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
 You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
 
 Do you wish to run the custom code? [y/N] ==========
@@ -579,18 +579,18 @@ Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 1042
 [1m[7m%[27m[1m[0m                                                                                                                                                    
  
 
-[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004hsspark[?2004l
+[0m[27m[24m[JShell Spark-MLX-LLM % [K[?2004hsspark[?2004l
 
 Enter your prompt: Ac  cat eas ts 8 fishes in a daty  y  .  a ANd    nd only            And in stock            But the man only have               owner of cat has only 20 fishes  . How many days can cat eat sufficentlt    y     cently enough for     ? to satisfy it          meet its quota of eating fishes ?
-Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
+Found template: /Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
 ✓ Thinking mode set to: ON
 
 ============================================================
-Command: /Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate --model XHToken/Spark-X2.5-1.7B --prompt A cat eats 8 fishes in a day.But the owner of cat has only 20 fishes. How many days can cat eat sufficently enough to meet its quota of eating fishes ? --max-tokens 10000 --temp 0 --device gpu --dtype bfloat16
+Command: /Users/<REDACTED>/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate --model XHToken/Spark-X2.5-1.7B --prompt A cat eats 8 fishes in a day.But the owner of cat has only 20 fishes. How many days can cat eat sufficently enough to meet its quota of eating fishes ? --max-tokens 10000 --temp 0 --device gpu --dtype bfloat16
 ============================================================
 
-The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
- You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+The repository /Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/<REDACTED>/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
 You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
 
 Do you wish to run the custom code? [y/N] ==========
@@ -630,7 +630,7 @@ Peak memory: 3.495 GB
 [1m[7m%[27m[1m[0m                                                                                                                                                    
  
 
-[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Spark-MLX-LLM % [K[?2004heexit[?2004l
+[0m[27m[24m[JShell Spark-MLX-LLM % [K[?2004heexit[?2004l
 
 
 Script done on Fri Sep  4 10:52:33 2026

@@ -14,29 +14,27 @@ Running it on Apple M3-Pro 8GB Unified Memory,
   - Python: `[3.14.7]`
   - MLX / Spark-MLX-LLM: `[0.1.0]`
 
-## Thinking Model Spark
-
-| Category | Example 1 | Example 2 | Example 3 | Example 4 | Example 5 | Example 6 | Example 7 | Example 8 | Example 9 |
-|---|---|---|---|---|---|---|---|---|---|
-| Model | XHToken/Spark-X2.5-1.7B | XHToken/Spark-X2.5-1.7B | XHToken/Spark-X2.5-1.7B | XHToken/Spark-X2.5-1.7B | XHToken/Spark-X2.5-1.7B | XHToken/Spark-X2.5-1.7B | XHToken/Spark-X2.5-1.7B | XHToken/Spark-X2.5-1.7B | XHToken/Spark-X2.5-1.7B |
-| Runtime | Spark-MLX-LLM | Spark-MLX-LLM | Spark-MLX-LLM | Spark-MLX-LLM | Spark-MLX-LLM | Spark-MLX-LLM | Spark-MLX-LLM | Spark-MLX-LLM | Spark-MLX-LLM |
-| Runtime version | Spark-MLX-LLM [0.1.0] | Spark-MLX-LLM [0.1.0] | Spark-MLX-LLM [0.1.0] | Spark-MLX-LLM [0.1.0] | Spark-MLX-LLM [0.1.0] | Spark-MLX-LLM [0.1.0] | Spark-MLX-LLM [0.1.0] | Spark-MLX-LLM [0.1.0] | Spark-MLX-LLM [0.1.0] |
-| Hardware | Apple M3-Pro 8GB Unified Memory | Apple M3-Pro 8GB Unified Memory | Apple M3-Pro 8GB Unified Memory | Apple M3-Pro 8GB Unified Memory | Apple M3-Pro 8GB Unified Memory | Apple M3-Pro 8GB Unified Memory | Apple M3-Pro 8GB Unified Memory | Apple M3-Pro 8GB Unified Memory | Apple M3-Pro 8GB Unified Memory |
-| GPU driver | MLX GPU | MLX GPU | MLX GPU | MLX GPU | MLX GPU | MLX GPU | MLX GPU | MLX GPU | MLX GPU |
-| Precision | BF16 | BF16 | BF16 | BF16 | BF16 | BF16 | BF16 | BF16 | BF16 |
-| Context length | 1137 | 10023 | 10023 | 112 | 383 | 1049 | 255 | 10063 | 820 |
-| Batch size | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| Peak Memory | 4.009 GB | Errored | Errored | 3.456 GB | 3.461 GB | 3.461 GB | 3.469 GB | 3.649 GB | 3.495 GB |
-| max_tokens | 154 | 10000 | 10000 | 10000 | 10000 | 10000 | 10000 | 10000 | 10000 |
-| Temperature | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Input length | 783 tokens | 23 | 23 | 23 | 26 | 39 | 39 | 63 | 59 |
-| Tokens per second [Input] | 778.865 tokens-per-sec | - | 136.121 tokens-per-sec | 136.121 tokens-per-sec | 53.696 tokens-per-sec | 152.609 tokens-per-sec | 169.146 tokens-per-sec | 265.597 tokens-per-sec | 315.884 tokens-per-sec |
-| Tokens per second [Output] | 25.750 tokens-per-sec | - | 25.697 tokens-per-sec | 25.697 tokens-per-sec | 25.152 tokens-per-sec | 24.488 tokens-per-sec | 26.258 tokens-per-sec | 24.256 tokens-per-sec | 26.179 tokens-per-sec |
-| Output length | 354 tokens | 10000 | 10000 | 89 | 357 | 1019 | 216 | 10000 | 10000 |
-| RunTime | 78.13 seconds | 411 | 411 seconds | 23 seconds | 72.18s | 70.78s | 36.73s | 474.24 | 50.95s |
-| Thinking Mode | On | Off | On | On | On | On | On | On | Off |
-
 ### Example 1: Car Wash Problem
+
+| Category | Example |
+|---|---|
+| Model | XHToken/Spark-X2.5-1.7B |
+| Runtime | Spark-MLX-LLM |
+| Runtime version | Spark-MLX-LLM [0.1.0] |
+| Hardware | Apple M3-Pro 8GB Unified Memory |
+| GPU driver | MLX GPU |
+| Precision | BF16 |
+| Context length | 1137 |
+| Batch size | 1 |
+| Peak Memory | 4.009 GB |
+| max_tokens | 154 |
+| Temperature | 0 |
+| Input length | 783 tokens |
+| Tokens per second [Input] | 778.865 tokens-per-sec |
+| Tokens per second [Input] | 25.750 tokens-per-sec |
+| Output length | 354 tokens |
+| RunTime | 78.13 seconds |
+| Code/scripts | Python Script which defined parameters as well as Thinking Mode on On and Off |
 
 - **Raw model output:**
 
@@ -87,7 +85,30 @@ That is direct and concise.</think>Yes, 44+98=128.
 
 ### Example 3: Reasoning Based Riddle
 
+
+| Category | Example |
+|---|---|
+| Model | XHToken/Spark-X2.5-1.7B |
+| Runtime | Spark-MLX-LLM |
+| Runtime version | Spark-MLX-LLM [0.1.0] |
+| Hardware | Apple M3-Pro 8GB Unified Memory |
+| GPU driver | MLX GPU |
+| Precision | BF16 |
+| Context length | 10023 |
+| Batch size | 1 |
+| Peak Memory | Errored |
+| max_tokens | 10000 |
+| Temperature | 0 |
+| Input length | 23 |
+| Tokens per second [Input] | 136.121 tokens-per-sec |
+| Tokens per second [Input] | 25.697 tokens-per-sec |
+| Output length | 10000 |
+| RunTime | 411 seconds |
+| Code/scripts | Python Script which defined parameters as well as Thinking Mode on On and Off |
+
 ## Failure with Spark
+
+
 
 When given a riddle based question even though its not it’s in thinking loop and crashes due to memory being overloaded eg “What comes first x or y ?” X and y being two objects being compared to.
 
@@ -133,6 +154,26 @@ raceback (most recent call last):
 RuntimeError: [METAL] Command buffer execution failed: Insufficient Memory (00000008:kIOGPUCommandBufferCallbackErrorOutOfMemory).
 ```
 
+| Category | Example |
+|---|---|
+| Model | XHToken/Spark-X2.5-1.7B |
+| Runtime | Spark-MLX-LLM |
+| Runtime version | Spark-MLX-LLM [0.1.0] |
+| Hardware | Apple M3-Pro 8GB Unified Memory |
+| GPU driver | MLX GPU |
+| Precision | BF16 |
+| Context length | 112 |
+| Batch size | 1 |
+| Peak Memory | 3.456 GB |
+| max_tokens | 10000 |
+| Temperature | 0 |
+| Input length | 23 |
+| Tokens per second [Input] | 136.121 tokens-per-sec |
+| Tokens per second [Input] | 25.697 tokens-per-sec |
+| Output length | 89 |
+| RunTime | 23 seconds |
+| Code/scripts | Python Script which defined parameters as well as Thinking Mode on On and Off |
+
 **Prompt:**
 ```text
 What is the capital of Delhi ?
@@ -146,6 +187,26 @@ Let's provide a clear and concise answer.</think>The capital of Delhi is **New D
 ```
 
 ### Example 4:
+
+| Category | Example |
+|---|---|
+| Model | XHToken/Spark-X2.5-1.7B |
+| Runtime | Spark-MLX-LLM |
+| Runtime version | Spark-MLX-LLM [0.1.0] |
+| Hardware | Apple M3-Pro 8GB Unified Memory |
+| GPU driver | MLX GPU |
+| Precision | BF16 |
+| Context length | 383 |
+| Batch size | 1 |
+| Peak Memory | 3.461 GB |
+| max_tokens | 10000 |
+| Temperature | 0 |
+| Input length | 26 |
+| Tokens per second [Input] | 53.696 tokens-per-sec |
+| Tokens per second [Input] | 25.152 tokens-per-sec |
+| Output length | 357 |
+| RunTime | 72.18s |
+| Code/scripts | Python Script which defined parameters as well as Thinking Mode on On and Off |
 
 **Prompt:**
 ```text
@@ -162,6 +223,26 @@ Let's provide a clear and concise answer.</think>The capital of Delhi is **New D
 ```
 
 ### Example 5:
+
+| Category | Example |
+|---|---|
+| Model | XHToken/Spark-X2.5-1.7B |
+| Runtime | Spark-MLX-LLM |
+| Runtime version | Spark-MLX-LLM [0.1.0] |
+| Hardware | Apple M3-Pro 8GB Unified Memory |
+| GPU driver | MLX GPU |
+| Precision | BF16 |
+| Context length | 1049 |
+| Batch size | 1 |
+| Peak Memory | 3.461 GB |
+| max_tokens | 10000 |
+| Temperature | 0 |
+| Input length | 39 |
+| Tokens per second [Input] | 152.609 tokens-per-sec |
+| Tokens per second [Input] | 24.488 tokens-per-sec |
+| Output length | 1019 |
+| RunTime | 70.78s |
+| Code/scripts | Python Script which defined parameters as well as Thinking Mode on On and Off |
 
 **Prompt:**
 ```text
@@ -209,6 +290,28 @@ The answer should be concise but informative, so I'll structure it with a direct
 
 ### Example 6:
 
+| Category | Example |
+|---|---|
+| Model | XHToken/Spark-X2.5-1.7B |
+| Runtime | Spark-MLX-LLM |
+| Runtime version | Spark-MLX-LLM [0.1.0] |
+| Hardware | Apple M3-Pro 8GB Unified Memory |
+| GPU driver | MLX GPU |
+| Precision | BF16 |
+| Context length | 255 |
+| Batch size | 1 |
+| Peak Memory | 3.469 GB |
+| max_tokens | 10000 |
+| Temperature | 0 |
+| Input length | 39 |
+| Tokens per second [Input] | 169.146 tokens-per-sec |
+| Tokens per second [Input] | 26.258 tokens-per-sec |
+| Output length | 216 |
+| RunTime | 36.73s |
+| Code/scripts | Python Script which defined parameters as well as Thinking Mode on On and Off |
+
+
+
 **Enter your prompt:**
 ```text
 4 apples are eaten by children and their are only 10 in the basket? How many apples are eaten ?
@@ -233,6 +336,26 @@ The problem states that 4 apples are eaten, so that is the answer. The informati
 ```
 
 ### Example 7:
+
+| Category | Example |
+|---|---|
+| Model | XHToken/Spark-X2.5-1.7B |
+| Runtime | Spark-MLX-LLM |
+| Runtime version | Spark-MLX-LLM [0.1.0] |
+| Hardware | Apple M3-Pro 8GB Unified Memory |
+| GPU driver | MLX GPU |
+| Precision | BF16 |
+| Context length | 10063 |
+| Batch size | 1 |
+| Peak Memory | 3.649 GB |
+| max_tokens | 10000 |
+| Temperature | 0 |
+| Input length | 63 |
+| Tokens per second [Input] | 265.597 tokens-per-sec |
+| Tokens per second [Input] | 24.256 tokens-per-sec |
+| Output length | 10000 |
+| RunTime | 474.24 |
+| Code/scripts | Python Script which defined parameters as well as Thinking Mode on On and Off |
 
 **Prompt:**
 ```text
