@@ -117,14 +117,14 @@ python3 test_runner.py
 | Precision | BF16 | BF16 | BF16 | BF16 | BF16 | BF16 | BF16 | BF16 | BF16 |
 | Context length | 1137 | 10023 | 10023 | 112 | 383 | 1049 | 255 | 10063 | 820 |
 | Batch size | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| Peak Memory | 4.009 GB | Errored | Errored | 3.456 GB | 3.461 GB | 3.461 GB | 3.469 GB | 3.649 GB | 3.495 GB |
+| Peak Memory | 4.009 GB | N/A (Errored) | N/A (Errored) | 3.456 GB | 3.461 GB | 3.461 GB | 3.469 GB | 3.649 GB | 3.495 GB |
 | max_tokens | 154 | 10000 | 10000 | 10000 | 10000 | 10000 | 10000 | 10000 | 10000 |
 | Temperature | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Input length | 783 tokens | 23 | 23 | 23 | 26 | 39 | 39 | 63 | 59 |
-| Tokens per second [Input] | 778.865 tokens-per-sec | - | 136.121 tokens-per-sec | 136.121 tokens-per-sec | 53.696 tokens-per-sec | 152.609 tokens-per-sec | 169.146 tokens-per-sec | 265.597 tokens-per-sec | 315.884 tokens-per-sec |
-| Tokens per second [Output] | 25.750 tokens-per-sec | - | 25.697 tokens-per-sec | 25.697 tokens-per-sec | 25.152 tokens-per-sec | 24.488 tokens-per-sec | 26.258 tokens-per-sec | 24.256 tokens-per-sec | 26.179 tokens-per-sec |
+| Tokens per second [Input] | 778.865 tokens-per-sec | N/A | 136.121 tokens-per-sec | 136.121 tokens-per-sec | 53.696 tokens-per-sec | 152.609 tokens-per-sec | 169.146 tokens-per-sec | 265.597 tokens-per-sec | 315.884 tokens-per-sec |
+| Tokens per second [Output] | 25.750 tokens-per-sec | N/A | 25.697 tokens-per-sec | 25.697 tokens-per-sec | 25.152 tokens-per-sec | 24.488 tokens-per-sec | 26.258 tokens-per-sec | 24.256 tokens-per-sec | 26.179 tokens-per-sec |
 | Output length | 354 tokens | 10000 | 10000 | 89 | 357 | 1019 | 216 | 10000 | 10000 |
-| RunTime | 78.13 seconds | 411 | 411 seconds | 23 seconds | 72.18s | 70.78s | 36.73s | 474.24 | 50.95s |
+| RunTime | 78.13 seconds | 411 seconds | 411 seconds | 23 seconds | 72.18 seconds | 70.78 seconds | 36.73 seconds | 474.24 seconds | 50.95 seconds |
 | Thinking Mode | On | Off | On | On | On | On | On | On | Off |
 
 ### Example 1: Car Wash Problem
