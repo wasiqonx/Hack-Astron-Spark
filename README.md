@@ -96,10 +96,7 @@ When given a riddle based question even though its not it’s in thinking loop a
 What comes first hair or phone ?
 ```
 
-**Spark output:**
-```text
-https://github.com/wasiqonx/Hack-Astron-Spark/blob/main/Thinking%20Mode%20On/logs/Reasoning.log#L6
-```
+**Spark output:** [OUTPUT](https://github.com/wasiqonx/Hack-Astron-Spark/blob/main/Thinking%20Mode%20On/logs/Reasoning.log#L6)
 
 If the `max_tokens` are increased by 10x that is `100000` it just crashes.
 
