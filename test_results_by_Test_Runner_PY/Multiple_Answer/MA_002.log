@@ -10,7 +10,7 @@ Reason: All criteria met
 ============================================================
 RESPONSE:
 ============================================================
-📁 Scanning directory: /Users/wasiq/Projects/Private/Spark/Final/Hack-Astron-Spark/Multiple-Answer
+📁 Scanning directory: /Users/<REDACTED/Projects/Private/Spark/Final/Hack-Astron-Spark/Multiple-Answer
 ------------------------------------------------------------
 ✅ Scanned 7 files (61.1 KB)
 📄 Found 7 text files
@@ -22,8 +22,8 @@ Thinking mode: OFF
 Max tokens: 2048, Temperature: 0.7
 ======================================================================
 
-The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
- You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+The repository /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
 You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
 
 Do you wish to run the custom code? [y/N] ==========

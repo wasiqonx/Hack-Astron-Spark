@@ -10,8 +10,8 @@ Reason: All criteria met
 ============================================================
 RESPONSE:
 ============================================================
-The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
- You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+The repository /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
 You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
 
 Do you wish to run the custom code? [y/N] ==========

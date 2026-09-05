@@ -14,7 +14,7 @@ import argparse
 from typing import List, Dict, Any
 
 # Configuration
-SPARK_MLX_PATH = "/Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate"
+SPARK_MLX_PATH = "/Users/<REDACTED/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate"
 MODEL_NAME = "XHToken/Spark-X2.5-1.7B"
 
 # File types to scan (extensions)

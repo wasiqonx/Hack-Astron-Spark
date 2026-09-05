@@ -31,7 +31,7 @@ Before running the tests, set up a Python virtual environment:
 
 ```bash
 # Navigate to project directory
-cd /Users/wasiq/Projects/Private/Spark/Final/Hack-Astron-Spark
+cd /Users/<REDACTED/Projects/Private/Spark/Final/Hack-Astron-Spark
 
 # Create virtual environment
 python3 -m venv .venv
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 **Note:** Make sure to update the `SPARK_MLX_PATH` in `test_runner.py` to point to your spark-mlx-generate executable:
 ```python
 # In test_runner.py, update this line:
-SPARK_MLX_PATH = "/Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate"
+SPARK_MLX_PATH = "/Users/<REDACTED/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate"
 ```
 
 ### Run All Tests
@@ -187,7 +187,7 @@ When given a riddle based question even though its not it’s in thinking loop a
 What comes first hair or phone ?
 ```
 
-**Spark output:** [OUTPUT](https://github.com/wasiqonx/Hack-Astron-Spark/blob/main/Thinking%20Mode%20On/logs/Reasoning.log#L6)
+**Spark output:** [OUTPUT](https://github.com/<REDACTEDonx/Hack-Astron-Spark/blob/main/Thinking%20Mode%20On/logs/Reasoning.log#L6)
 
 If the `max_tokens` are increased by 10x that is `100000` it just crashes.
 
@@ -327,7 +327,7 @@ The problem states that 4 apples are eaten, so that is the answer. The informati
 A cow mows 5 times a day.Each Mow mean its breakfast time, and then a mow at lunch, then at supper, then at dinner.Which mow isn't related to any event on Timeline ?
 ```
 
-**Spark output:** [OUTPUT](https://github.com/wasiqonx/Hack-Astron-Spark/blob/main/Thinking%20Mode%20On/logs/Reasoning.log#L398)
+**Spark output:** [OUTPUT](https://github.com/<REDACTEDonx/Hack-Astron-Spark/blob/main/Thinking%20Mode%20On/logs/Reasoning.log#L398)
 
 ### Example 9:
 

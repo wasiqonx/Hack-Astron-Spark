@@ -1,13 +1,13 @@
-MULTIPLE-FILES CODINGwasiq@Wasiqs-MacBook-Pro Multiple-Answer % chmod +x scanner.py
-wasiq@Wasiqs-MacBook-Pro Multiple-Answer % source .venv/bin/activate                                        
+MULTIPLE-FILES CODINGadmin@macbookchmod +x scanner.py
+admin@macbooksource .venv/bin/activate                                        
 source: no such file or directory: .venv/bin/activate
-wasiq@Wasiqs-MacBook-Pro Multiple-Answer % source venv/bin/activate
+admin@macbooksource venv/bin/activate
 source: no such file or directory: venv/bin/activate
-wasiq@Wasiqs-MacBook-Pro Multiple-Answer % source .venv/bin/activate
+admin@macbooksource .venv/bin/activate
 source: no such file or directory: .venv/bin/activate
-wasiq@Wasiqs-MacBook-Pro Multiple-Answer % python3 -m venv venv
-wasiq@Wasiqs-MacBook-Pro Multiple-Answer % source venv/bin/activate
-(venv) wasiq@Wasiqs-MacBook-Pro Multiple-Answer % python scanner.py
+admin@macbookpython3 -m venv venv
+admin@macbooksource venv/bin/activate
+(venv) admin@macbookpython scanner.py
 📁 Scanning directory: .
 ------------------------------------------------------------
 ✅ Scanned 2 files (15.2 KB)
@@ -49,8 +49,8 @@ Thinking mode: OFF
 Max tokens: 2048, Temperature: 0.7
 ======================================================================
 
-The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
- You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+The repository /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
 You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
 
 Do you wish to run the custom code? [y/N] ==========
@@ -257,7 +257,7 @@ Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 1490
 [transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.103.68s
 
 
-(venv) wasiq@Wasiqs-MacBook-Pro Multiple-Answer % python scanner.py
+(venv) admin@macbookpython scanner.py
 📁 Scanning directory: .
 ------------------------------------------------------------
 ✅ Scanned 2 files (16.1 KB)
@@ -299,8 +299,8 @@ Thinking mode: OFF
 Max tokens: 30000, Temperature: 0.7
 ======================================================================
 
-The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
- You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+The repository /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
 You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
 
 Do you wish to run the custom code? [y/N] ==========
@@ -713,7 +713,7 @@ Thinking mode: OFF
 Max tokens: 30000, Temperature: 0.7Me added: Wrong answer
 ======================================================================
 
-The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+The repository /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
 We need to analyze the given context for the file `make.C`. The user asks: "focus on make.C what is the error in it ??"
 
 We need to provide a detailed and helpful response based on the file contents.

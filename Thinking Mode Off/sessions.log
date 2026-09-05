@@ -2,13 +2,13 @@ Script started on Fri Sep  4 14:43:57 2026
 [1m[7m%[27m[1m[0m                                                                                                                                                                      
  
 
-[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Thinking Mode Off % [K[?2004hsspark   s  sspark-nothink [?2004l
+[0m[27m[24m[J<REDACTED@<REDACTEDs-MacBook-Pro Thinking Mode Off % [K[?2004hsspark   s  sspark-nothink [?2004l
 
 Enter your prompt: a what      If    If car   0+0=1           s 55+88=143 ?
 
 
-The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
- You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+The repository /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
 You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
 
 Do you wish to run the custom code? [y/N] ==========
@@ -37,18 +37,18 @@ Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 1741
 [1m[7m%[27m[1m[0m                                                                                                                                                                      
  
 
-[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Thinking Mode Off % [K[?2004hspark-nothink[?2004l
+[0m[27m[24m[J<REDACTED@<REDACTEDs-MacBook-Pro Thinking Mode Off % [K[?2004hspark-nothink[?2004l
 
 Enter your prompt: Is   f car wash is 5   10 meteres   s away  ? is  S s Is it       Is it ok to take                  Does it make sense to take the car ?
-Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
+Found template: /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
 ✓ Thinking mode set to: OFF
 
 ============================================================
-Command: /Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate --model XHToken/Spark-X2.5-1.7B --prompt If car wash is 10 meteres away? Does it make sense to take the car ? --max-tokens 10000 --temp 0 --device gpu --dtype bfloat16
+Command: /Users/<REDACTED/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate --model XHToken/Spark-X2.5-1.7B --prompt If car wash is 10 meteres away? Does it make sense to take the car ? --max-tokens 10000 --temp 0 --device gpu --dtype bfloat16
 ============================================================
 
-The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
- You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+The repository /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
 You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
 
 Do you wish to run the custom code? [y/N] ==========
@@ -93,18 +93,18 @@ Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 1646
 [1m[7m%[27m[1m[0m                                                                                                                                                                      
  
 
-[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Thinking Mode Off % [K[?2004hspark-nothink[?2004l
+[0m[27m[24m[J<REDACTED@<REDACTEDs-MacBook-Pro Thinking Mode Off % [K[?2004hspark-nothink[?2004l
 
 Enter your prompt: b If sp  fishb        A cat eas ts 9 fishes in a dat y.But the owner has only 21 fishes. How m     Atl  least how many days and hours could  a  a cat survive ?
-Found template: /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
+Found template: /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab/chat_template.jinja
 ✓ Thinking mode set to: OFF
 
 ============================================================
-Command: /Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate --model XHToken/Spark-X2.5-1.7B --prompt A cat eats 9 fishes in a day.But the owner has only 21 fishes. At least how many days and hours could a cat survive ? --max-tokens 10000 --temp 0 --device gpu --dtype bfloat16
+Command: /Users/<REDACTED/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate --model XHToken/Spark-X2.5-1.7B --prompt A cat eats 9 fishes in a day.But the owner has only 21 fishes. At least how many days and hours could a cat survive ? --max-tokens 10000 --temp 0 --device gpu --dtype bfloat16
 ============================================================
 
-The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
- You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+The repository /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/<REDACTED/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
 You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
 
 Do you wish to run the custom code? [y/N] ==========
@@ -125,7 +125,7 @@ Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 1598
 [1m[7m%[27m[1m[0m                                                                                                                                                                      
  
 
-[0m[27m[24m[Jwasiq@Wasiqs-MacBook-Pro Thinking Mode Off % [K[?2004heexit[?2004l
+[0m[27m[24m[J<REDACTED@<REDACTEDs-MacBook-Pro Thinking Mode Off % [K[?2004heexit[?2004l
 
 
 Script done on Fri Sep  4 15:08:13 2026
