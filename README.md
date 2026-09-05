@@ -98,7 +98,7 @@ What comes first hair or phone ?
 
 **Spark output:**
 ```text
-INSERT THE LINK OF OUTPUT
+https://github.com/wasiqonx/Hack-Astron-Spark/blob/main/Thinking%20Mode%20On/logs/Reasoning.log#L6
 ```
 
 If the `max_tokens` are increased by 10x that is `100000` it just crashes.
@@ -241,7 +241,7 @@ A cow mows 5 times a day.Each Mow mean its breakfast time, and then a mow at lun
 
 **Spark output:**
 ```text
-<INSERT LINK TO LOGS>
+https://github.com/wasiqonx/Hack-Astron-Spark/blob/main/Thinking%20Mode%20On/logs/Reasoning.log#L398
 ```
 
 ### Example 9:
