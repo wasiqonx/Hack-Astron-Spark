@@ -1,0 +1,40 @@
+Test: Simple Addition (55+88)
+ID: TM_OFF_001
+Category: Math
+Prompt: Is 55+88=143 ?
+Timestamp: 2026-09-05T13:02:49.938293
+Elapsed Time: 31.91s
+Passed: True
+Reason: All criteria met
+
+============================================================
+RESPONSE:
+============================================================
+The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+Do you wish to run the custom code? [y/N] ==========
+We are asked: "Is 55+88=143 ?" This is a simple arithmetic question. We need to check if 55 + 88 equals 143.
+
+Let's compute: 55 + 88 = 143. Indeed, 55 + 88 = 143. So the answer is yes.
+
+But we need to respond appropriately. The user asks a yes/no question. We should answer "Yes" or "Yes, 55+88=143." We can also show the calculation.
+
+Since it's a straightforward question, we can just confirm.
+
+I'll respond: Yes, 55 + 88 = 143.</think>Yes, 55 + 88 = 143. 
+
+The calculation is correct: 55 + 88 = 143.
+==========
+Prompt: 28 tokens, 35.825 tokens-per-sec
+Generation: 200 tokens, 20.921 tokens-per-sec
+Peak memory: 3.464 GB
+
+============================================================
+STDERR:
+============================================================
+
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 2595.24it/s]
+[transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.

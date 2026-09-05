@@ -14,6 +14,68 @@ Running it on Apple M3-Pro 8GB Unified Memory,
   - Python: `[3.14.7]`
   - MLX / Spark-MLX-LLM: `[0.1.0]`
 
+## Steps to Reproduce Results
+
+An automated test runner (`test_runner.py`) is provided to reproduce all results.
+
+### Prerequisites
+- Python 3.14.7
+- MLX / Spark-MLX-LLM 0.1.0
+- XHToken/Spark-X2.5-1.7B model downloaded
+
+### Run All Tests
+```bash
+# Make sure to add path in test_runner.py  to spark_mlx_generate
+python3 test_runner.py
+```
+
+### Test Runner Menu Options
+1. **Run All Tests** - Runs all 11 tests across all categories
+2. **Run Thinking Mode On Tests** - Runs 5 thinking mode tests
+3. **Run Thinking Mode Off Tests** - Runs 4 non-thinking tests
+4. **Run Multiple-Answer Tests** - Runs 2 file scanner tests
+5. **Run Custom Test** - Enter your own prompt to test
+6. **View Last Results** - Shows summary of last test run
+7. **Exit** - Quit the program
+
+### Test Categories
+
+#### Thinking Mode On (5 tests)
+| Test ID | Name | Category | Prompt |
+|---------|------|----------|--------|
+| TM_ON_001 | Car Wash Problem | General Knowledge | If my carwash is 1km away ? Should I take the car or not ? |
+| TM_ON_002 | Simple Addition | Math | Is 44+98=128 ? |
+| TM_ON_003 | Hair or Phone Riddle | Riddle | What comes first hair or phone ? |
+| TM_ON_004 | Cow Mow Riddle | Riddle | A cow mows 5 times a day... |
+| TM_ON_005 | Cat and Fishes (8 fishes) | Math | A cat eats 8 fishes in a day... |
+
+#### Thinking Mode Off (4 tests)
+| Test ID | Name | Category | Prompt |
+|---------|------|----------|--------|
+| TM_OFF_001 | Simple Addition (55+88) | Math | Is 55+88=143 ? |
+| TM_OFF_002 | Car Wash Problem | General Knowledge | Does it make sense to take the car ? |
+| TM_OFF_003 | Capital of Delhi | General Knowledge | What is the capital of Delhi ? |
+| TM_OFF_004 | Cat and Fishes (9 fishes) | Math | A cat eats 9 fishes in a day... |
+
+#### Multiple-Answer (2 tests)
+| Test ID | Name | Category | Prompt |
+|---------|------|----------|--------|
+| MA_001 | HTML Table with 20 Countries | File Analysis | scan question.txt and answer it |
+| MA_002 | C Code Error Analysis | Code Analysis | Check the make.C for error |
+
+### Output
+- Results saved to `test_results/` directory
+- Individual log files for each test
+- JSON report with all results (`test_results/test_report_*.json`)
+
+### Expected Test Duration
+- Thinking Mode On tests: ~30-60 seconds each
+- Thinking Mode Off tests: ~30-60 seconds each
+- Multiple-Answer tests: ~100-120 seconds each
+- **Total estimated time: ~15-20 minutes for all tests**
+
+
+
 ## Thinking Model Spark
 
 | Category | Example 1 | Example 2 | Example 3 | Example 4 | Example 5 | Example 6 | Example 7 | Example 8 | Example 9 |

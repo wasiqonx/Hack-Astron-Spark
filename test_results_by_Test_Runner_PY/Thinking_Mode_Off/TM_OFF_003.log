@@ -1,0 +1,32 @@
+Test: Capital of Delhi
+ID: TM_OFF_003
+Category: General Knowledge
+Prompt: What is the capital of Delhi ?
+Timestamp: 2026-09-05T13:04:38.761895
+Elapsed Time: 25.58s
+Passed: True
+Reason: All criteria met
+
+============================================================
+RESPONSE:
+============================================================
+The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+Do you wish to run the custom code? [y/N] ==========
+We are asked: "What is the capital of Delhi ?" This is a simple factual question. The capital of Delhi is New Delhi. However, note that Delhi is a union territory, and its capital is New Delhi. Sometimes people might say Delhi, but the official capital is New Delhi. So the answer should be New Delhi.
+
+Let's provide a clear and concise answer.</think>The capital of Delhi is **New Delhi**.
+==========
+Prompt: 23 tokens, 68.026 tokens-per-sec
+Generation: 89 tokens, 22.970 tokens-per-sec
+Peak memory: 3.456 GB
+
+============================================================
+STDERR:
+============================================================
+
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 2467.68it/s]
+[transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.

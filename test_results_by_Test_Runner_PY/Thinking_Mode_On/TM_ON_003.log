@@ -1,0 +1,17 @@
+Test: Hair or Phone Riddle
+ID: TM_ON_003
+Category: Riddle
+Prompt: What comes first hair or phone ?
+Timestamp: 2026-09-05T12:56:06.872065
+Elapsed Time: 299.98s
+Passed: False
+Reason: Command failed: Command timed out after 300 seconds
+
+============================================================
+RESPONSE:
+============================================================
+
+============================================================
+STDERR:
+============================================================
+Command timed out after 300 seconds

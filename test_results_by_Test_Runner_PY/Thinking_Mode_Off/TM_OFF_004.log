@@ -1,0 +1,17 @@
+Test: Cat and Fishes (9 fishes)
+ID: TM_OFF_004
+Category: Math
+Prompt: A cat eats 9 fishes in a day. But the owner has only 21 fishes. At least how many days and hours could a cat survive?
+Timestamp: 2026-09-05T13:09:38.815815
+Elapsed Time: 300.05s
+Passed: False
+Reason: Command failed: Command timed out after 300 seconds
+
+============================================================
+RESPONSE:
+============================================================
+
+============================================================
+STDERR:
+============================================================
+Command timed out after 300 seconds

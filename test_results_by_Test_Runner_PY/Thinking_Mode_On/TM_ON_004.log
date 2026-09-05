@@ -1,0 +1,17 @@
+Test: Cow Mow Riddle
+ID: TM_ON_004
+Category: Riddle
+Prompt: A cow mows 5 times a day. Which mow is not related to any event on Timeline ?
+Timestamp: 2026-09-05T13:01:06.930768
+Elapsed Time: 300.05s
+Passed: False
+Reason: Command failed: Command timed out after 300 seconds
+
+============================================================
+RESPONSE:
+============================================================
+
+============================================================
+STDERR:
+============================================================
+Command timed out after 300 seconds

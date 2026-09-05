@@ -1,0 +1,32 @@
+Test: Simple Addition
+ID: TM_ON_002
+Category: Math
+Prompt: Is 44+98=128 ?
+Timestamp: 2026-09-05T12:51:06.890149
+Elapsed Time: 25.32s
+Passed: True
+Reason: All criteria met
+
+============================================================
+RESPONSE:
+============================================================
+The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+Do you wish to run the custom code? [y/N] ==========
+We are asked: "Is 44+98=128 ?" This is a simple arithmetic question. Let's compute: 44 + 98 = 142. So 128 is incorrect. The answer should be no, and we can explain why.
+
+But the user might just want a yes/no or a brief explanation. Since it's a straightforward question, I'll respond with "No, 44+98=142, not 128."</think>No, 44 + 98 = 142, not 128. The correct sum is 142.
+==========
+Prompt: 28 tokens, 149.575 tokens-per-sec
+Generation: 141 tokens, 24.731 tokens-per-sec
+Peak memory: 3.464 GB
+
+============================================================
+STDERR:
+============================================================
+
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 2439.97it/s]
+[transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.

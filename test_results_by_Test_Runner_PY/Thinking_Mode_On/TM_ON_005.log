@@ -1,0 +1,46 @@
+Test: Cat and Fishes (8 fishes)
+ID: TM_ON_005
+Category: Math
+Prompt: A cat eats 8 fishes in a day. But the owner has only 20 fishes. How many days can cat eat ?
+Timestamp: 2026-09-05T13:02:18.024794
+Elapsed Time: 71.09s
+Passed: True
+Reason: All criteria met
+
+============================================================
+RESPONSE:
+============================================================
+The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+Do you wish to run the custom code? [y/N] ==========
+We are given: "A cat eats 8 fishes in a day. But the owner has only 20 fishes. How many days can cat eat ?"
+
+This is a simple division problem: 20 fishes / 8 fishes per day = 2.5 days. But since the cat eats 8 fishes per day, it can eat for 2 full days (using 16 fishes) and then on the third day it would eat 4 fishes, but the question asks "How many days can cat eat?" Typically, we might answer 2 days if we consider that it can't eat a fraction of a day? Or we might say 2.5 days. But in many such problems, they expect the answer as a whole number of days, or they might expect 2.5. Let's see the context. It's a simple arithmetic problem. The owner has 20 fishes, cat eats 8 per day. So number of days = 20 / 8 = 2.5. But if we consider that the cat eats exactly 8 fishes per day, then after 2 days, it has 4 fishes left, which is not enough for a full day. So it can eat for 2 days. However, sometimes these problems are designed to have a fractional answer. The phrasing "How many days can cat eat?" might imply the maximum number of days it can eat, which could be 2.5 if we allow partial days. But in real life, you can't eat a fraction of a fish? Actually, you can eat a fraction of a fish, but the cat eats 8 fishes per day, so it's a rate. So it can eat for 2.5 days. But let's think: if the owner has 20 fishes, and the cat eats 8 per day, then in 2 days it eats 16, leaving 4. So it can eat for 2 days and then has 4 left, which is not enough for a third day. So the cat can eat for 2 days. But if the question expects a numerical answer, it might be 2.5. I need to consider typical math problems. Often, they ask "How many days can the cat eat?" and the answer is 2.5. But sometimes they want the answer in whole days. Let's see the exact wording: "A cat eats 8 fishes in a day. But the owner has only 20 fishes. How many days can cat eat ?" It doesn't specify if it's a whole number of days. In many such problems, they expect the division result, which is 2.5. But if it's a simple problem for elementary school, they might expect 2.5. However, sometimes they might expect "2 days" because it can't eat a fraction of a day? But the cat eats 8 fishes per day, so it can eat 8 fishes in a day, so it can eat for 2.5 days. I think the answer is 2.5 days. But let's check if there's any trick: "fishes" is misspelled, but that's fine. The owner has 20 fishes. Cat eats 8 per day. So 20/8 = 2.5. So answer: 2.5 days.
+
+But wait: could it be that the cat eats 8 fishes in a day, but the owner has 20 fishes, so the cat can eat for 20/8 = 2.5 days. That is the straightforward answer.
+
+I'll answer: 2.5 days. But to be safe, I can explain: The cat can eat for 2.5 days. Or if they want a whole number, it's 2 days. But since the question doesn't specify "full days", I'll give 2.5.
+
+Let's see similar problems: "A cat eats 8 fish in a day. The owner has 20 fish. How many days can the cat eat?" Usually the answer is 2.5. I'll provide that.
+
+I'll write the answer clearly.</think>The cat eats 8 fishes per day. With 20 fishes available, the number of days it can eat is calculated as:
+
+\[
+\frac{20 \text{ fishes}}{8 \text{ fishes/day}} = 2.5 \text{ days}
+\]
+
+So, the cat can eat for **2.5 days** (or 2 full days and then 4 fishes left, which is not enough for a third full day).
+==========
+Prompt: 45 tokens, 24.216 tokens-per-sec
+Generation: 1000 tokens, 20.738 tokens-per-sec
+Peak memory: 3.476 GB
+
+============================================================
+STDERR:
+============================================================
+
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 2134.34it/s]
+[transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.

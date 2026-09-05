@@ -1,0 +1,36 @@
+Test: Car Wash Problem
+ID: TM_ON_001
+Category: General Knowledge
+Prompt: If my carwash is 1km away ? Should I take the car or not ?
+Timestamp: 2026-09-05T12:50:41.564935
+Elapsed Time: 27.21s
+Passed: False
+Reason: Missing keywords: yes, short distance. 
+
+============================================================
+RESPONSE:
+============================================================
+The repository /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab contains custom code which must be executed to correctly load the model. You can inspect the repository content at /Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab .
+ You can inspect the repository content at https://hf.co//Users/wasiq/.cache/huggingface/hub/models--XHToken--Spark-X2.5-1.7B/snapshots/448e61eb392c00f2c403185c5b56d5e0665bfaab.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+Do you wish to run the custom code? [y/N] ==========
+We need to analyze the question: "If my carwash is 1km away ? Should I take the car or not ?" This is a question about whether to take a car to a car wash that is 1 km away. The user is asking for advice on whether to take the car or not. We need to provide a reasoned response.
+
+We should consider factors like time, cost, convenience, environmental impact, etc. Since it's only 1 km away, it's relatively close. But we need to give a balanced answer.
+
+We should consider:
+- Time: 1 km is short, but driving takes time. However, it's not too long.
+- Cost: Car wash costs money, but if it
+==========
+Prompt: 34 tokens, 80.656 tokens-per-sec
+Generation: 154 tokens, 24.477 tokens-per-sec
+Peak memory: 3.463 GB
+
+============================================================
+STDERR:
+============================================================
+
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+Fetching 13 files: 100%|██████████| 13/13 [00:00<00:00, 2416.72it/s]
+[transformers] You are using a model of type `spark2_5` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.
