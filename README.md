@@ -25,9 +25,36 @@ An automated test runner (`test_runner.py`) is provided to reproduce all results
 - MLX / Spark-MLX-LLM 0.1.0
 - XHToken/Spark-X2.5-1.7B model downloaded
 
+### Setup Virtual Environment
+
+Before running the tests, set up a Python virtual environment:
+
+```bash
+# Navigate to project directory
+cd /Users/wasiq/Projects/Private/Spark/Final/Hack-Astron-Spark
+
+# Create virtual environment
+python3 -m venv .venv
+
+# Activate virtual environment
+source .venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+**Note:** Make sure to update the `SPARK_MLX_PATH` in `test_runner.py` to point to your spark-mlx-generate executable:
+```python
+# In test_runner.py, update this line:
+SPARK_MLX_PATH = "/Users/wasiq/Projects/Private/Spark/Spark-MLX-LLM/.venv/bin/spark-mlx-generate"
+```
+
 ### Run All Tests
 ```bash
-# Make sure to add path in test_runner.py  to spark_mlx_generate
+# Make sure virtual environment is activated
+source .venv/bin/activate
+
+# Run the test runner
 python3 test_runner.py
 ```
 
