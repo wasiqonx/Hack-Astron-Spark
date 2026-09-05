@@ -236,10 +236,7 @@ The problem states that 4 apples are eaten, so that is the answer. The informati
 A cow mows 5 times a day.Each Mow mean its breakfast time, and then a mow at lunch, then at supper, then at dinner.Which mow isn't related to any event on Timeline ?
 ```
 
-**Spark output:**
-```text
-https://github.com/wasiqonx/Hack-Astron-Spark/blob/main/Thinking%20Mode%20On/logs/Reasoning.log#L398
-```
+**Spark output:** [OUTPUT](https://github.com/wasiqonx/Hack-Astron-Spark/blob/main/Thinking%20Mode%20On/logs/Reasoning.log#L398)
 
 ### Example 9:
 
