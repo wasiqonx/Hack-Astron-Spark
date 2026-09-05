@@ -1,4 +1,6 @@
-# Submission for Tests Conducted on Spark-1.7B Model
+# Submission for Tests Conducted on Spark-1.7B Model 
+
+Tested it with Various Coding tasks and Multi-Lingual Tests to produce answers 
 
 Running it on Apple M3-Pro 8GB Unified Memory,
 
@@ -535,3 +537,10 @@ int b = 0b02;  // For binary value 2 for no apparent reason
 
 
 
+
+
+---
+
+## Conclusion
+
+The Model seem to be working fine for simple tasks and questions that are straight but when a little twist and reasoning is added it struggles or it just start over thinking  and use all tokens or worse Crash due to memory issue
