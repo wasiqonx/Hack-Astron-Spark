@@ -396,7 +396,7 @@ Calculation: The cat eats 9 fish per day = 0.375 fish per hour. With 21 fish, th
 
 # Multiple-Answer - Sessions Comparison
 
-> **Note:** The following sessions were run using the **Spark-X2.5 Interactive File Analyzer** which scans files in a directory and answers questions about them. This is a multiple-file coding context where the model analyzes and answers questions about provided files. For full details, see [Multiple-Answer/comparison.md](Multiple-Answer/comparison.md).
+> **Note:** The following sessions were run using the **Spark-X2.5 Interactive File Analyzer** which scans files in a directory and answers questions about them. This is a multiple-file coding context where the model analyzes and answers questions about provided files. For full details, see [OUTPUT](Multiple-Answer/comparison.md).
 
 ## Sessions Comparison
 
@@ -436,7 +436,7 @@ Make an HTML file that displays a table with 20 country names
 ```
 
 **Output:**
-The model analyzed the question.txt file and provided a complete HTML solution. See the generated file: [Multiple-Answer/countries.html](Multiple-Answer/countries.html)
+The model analyzed the question.txt file and provided a complete HTML solution. See the generated file: [OUTPUT](Multiple-Answer/countries.html)
 
 ## Session 2: C Code Error Analysis
 
